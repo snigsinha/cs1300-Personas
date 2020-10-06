@@ -1,1 +1,47 @@
 /* Put your style information here! */
+img{
+    width:100%;
+    max-width:600px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    border-style: solid;
+    border-width: 1px;
+  
+  
+
+}
+body
+{
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    color: #181818;
+    background-color: #FAFAFA;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 5px
+
+  }
+
+  .flex-container-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 5px
+
+  }
+
+  .flex-container-row{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
+  }
